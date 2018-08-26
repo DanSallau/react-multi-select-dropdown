@@ -31,7 +31,7 @@ module.exports = {
     module: {
         rules: [
             { test: /\.tsx?$/, loader: "ts-loader", exclude: [/\.(test)\.ts$/] },
-            { test: /(\.css|\.scss|\.sass)$/, loaders: ['style-loader', 'sass-loader'] },
+            { test: /(\.css|\.scss|\.sass)$/, loaders: ['style-loader', 'css-loader', 'sass-loader'] },
             { test: /\.md$/, loaders: ['html-loader', 'markdown-loader'] },
             { test: /\.(jpe?g|png|gif)$/i, loader: 'file-loader?name=assets/images/[name].[ext]' },
             { test: /\.(mp4|webm|ogg)$/i, loader: 'file-loader?name=assets/videos/[name].[ext]' },
