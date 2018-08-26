@@ -1,0 +1,56 @@
+{
+  "name": "react-multi-select-dropdown",
+  "version": "1.0.0",
+  "description": "A multi select dropdown for react",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "webpack --config webpack.config.dev.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanSallau/react-multi-select-dropdown.git"
+  },
+  "keywords": [
+    "dropdown",
+    "multi",
+    "select",
+    "filter"
+  ],
+  "author": "Nuru Salihu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DanSallau/react-multi-select-dropdown/issues"
+  },
+  "homepage": "https://github.com/DanSallau/react-multi-select-dropdown#readme",
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "typescript": "^3.0.1"
+  },
+  "devDependencies": {
+    "@types/enzyme": "^3.1.13",
+    "@types/jest": "^23.3.1",
+    "@types/node": "^10.9.2",
+    "@types/prop-types": "^15.5.5",
+    "@types/react": "^16.4.11",
+    "@types/react-dom": "^16.0.7",
+    "babel-polyfill": "^6.26.0",
+    "enzyme": "^3.4.4",
+    "enzyme-adapter-react-16": "^1.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^23.5.0",
+    "jest-babel": "^1.0.1",
+    "jest-enzyme": "^6.0.3",
+    "jsdom": "^12.0.0",
+    "jsdom-global": "^3.0.2",
+    "node-sass": "^4.9.3",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.22.1",
+    "ts-jest": "^23.1.4",
+    "ts-loader": "^4.5.0",
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0"
+  }
+}
